@@ -3,46 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <title>Academic Transcript (Unofficial)</title>
+
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: #f5f6fa;
+    background-color: #f5f6fa;
     margin: 0;
+    padding: 0;
 }
+
 .header {
-    background: #4b4fd8;
+    background-color: #4b4fd8;
     color: white;
-    padding: 15px 30px;
+    padding: 16px 30px;
     font-size: 20px;
+    font-weight: bold;
 }
+
 .container {
-    background: white;
+    background-color: white;
     width: 90%;
     max-width: 1000px;
     margin: 30px auto;
-    padding: 20px;
+    padding: 25px;
     border-radius: 6px;
 }
+
 .info {
     margin-bottom: 20px;
 }
+
+.info p {
+    margin: 4px 0;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 15px;
 }
+
 th, td {
-    border-bottom: 1px solid #ddd;
     padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
 }
+
 th {
-    background: #f0f1f7;
+    background-color: #f0f1f7;
 }
+
 .totals {
     margin-top: 20px;
     font-weight: bold;
 }
 </style>
 </head>
+
 <body>
 
 <div class="header">
@@ -52,11 +69,11 @@ th {
 <div class="container">
 
     <div class="info">
-        <p><strong>Name:</strong> Makayla Brown<br>
-           <strong>Student ID:</strong> 870745874<br>
-           <strong>Major:</strong> Nursing<br>
-           <strong>Academic Standing:</strong> Good Standing<br>
-           <strong>Term:</strong> Fall 2025</p>
+        <p><strong>Name:</strong> Makayla Brown</p>
+        <p><strong>Student ID:</strong> 870745874</p>
+        <p><strong>Major:</strong> Nursing</p>
+        <p><strong>Term:</strong> Fall 2025</p>
+        <p><strong>Academic Standing:</strong> Good Standing</p>
     </div>
 
     <table>
@@ -68,6 +85,7 @@ th {
             <th>Credits</th>
             <th>Quality Points</th>
         </tr>
+
         <tr>
             <td>BIOL</td>
             <td>1030</td>
@@ -76,6 +94,7 @@ th {
             <td>3</td>
             <td>12.0</td>
         </tr>
+
         <tr>
             <td>BIOL</td>
             <td>1040L</td>
@@ -84,6 +103,7 @@ th {
             <td>1</td>
             <td>3.0</td>
         </tr>
+
         <tr>
             <td>HIST</td>
             <td>2111</td>
@@ -92,6 +112,7 @@ th {
             <td>3</td>
             <td>9.0</td>
         </tr>
+
         <tr>
             <td>INQR</td>
             <td>2003</td>
@@ -100,6 +121,7 @@ th {
             <td>3</td>
             <td>9.0</td>
         </tr>
+
         <tr>
             <td>MATH</td>
             <td>1401</td>
@@ -108,6 +130,7 @@ th {
             <td>3</td>
             <td>9.0</td>
         </tr>
+
         <tr>
             <td>SOCI</td>
             <td>1101</td>
@@ -121,7 +144,7 @@ th {
     <div class="totals">
         Total Credits: 16<br>
         Total Quality Points: 54.0<br>
-        <strong>GPA: 3.38</strong>
+        GPA: <strong>3.38</strong>
     </div>
 
 </div>
