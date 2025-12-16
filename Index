@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Academic Transcript (Unofficial)</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+}
+.header {
+    background: #4b4fd8;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.container {
+    background: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+.info {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+th {
+    background: #f0f1f7;
+}
+.totals {
+    margin-top: 20px;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    Student • Academic Transcript
+</div>
+
+<div class="container">
+
+    <div class="info">
+        <p><strong>Name:</strong> Makayla Brown<br>
+           <strong>Student ID:</strong> 870745874<br>
+           <strong>Major:</strong> Nursing<br>
+           <strong>Academic Standing:</strong> Good Standing<br>
+           <strong>Term:</strong> Fall 2025</p>
+    </div>
+
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Course</th>
+            <th>Title</th>
+            <th>Grade</th>
+            <th>Credits</th>
+            <th>Quality Points</th>
+        </tr>
+        <tr>
+            <td>BIOL</td>
+            <td>1030</td>
+            <td>Organismal Biology</td>
+            <td>A</td>
+            <td>3</td>
+            <td>12.0</td>
+        </tr>
+        <tr>
+            <td>BIOL</td>
+            <td>1040L</td>
+            <td>Organismal Biology Lab</td>
+            <td>B</td>
+            <td>1</td>
+            <td>3.0</td>
+        </tr>
+        <tr>
+            <td>HIST</td>
+            <td>2111</td>
+            <td>United States History to 1865</td>
+            <td>B</td>
+            <td>3</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>INQR</td>
+            <td>2003</td>
+            <td>Women in the Visual Arts</td>
+            <td>B</td>
+            <td>3</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>MATH</td>
+            <td>1401</td>
+            <td>Elementary Statistics</td>
+            <td>B</td>
+            <td>3</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>SOCI</td>
+            <td>1101</td>
+            <td>Intro to Sociology</td>
+            <td>A</td>
+            <td>3</td>
+            <td>12.0</td>
+        </tr>
+    </table>
+
+    <div class="totals">
+        Total Credits: 16<br>
+        Total Quality Points: 54.0<br>
+        <strong>GPA: 3.38</strong>
+    </div>
+
+</div>
+
+</body>
+</html>
